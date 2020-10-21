@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme-Flex-Box</title>
+    <script src="acme-flex-box.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class='main'>
+        <div id='navbar'>
+            <h1 id='navmain'>Acme Layout</h1>
+            <ul class = 'navitems'>
+                <li>Users</li>
+                <li>Departments</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div id='form'>
+            <h1>Users</h1>
+            <div id= 'fields'>
+                <h1>Create A User</h1>
+                <form id='formfields'>
+                    <p class='inputs'>First Name</p>
+                    <input type="text" class="inputs enter" name="fname" value="Jane"></input>
+                    <p class='inputs'>Last Name</p>
+                    <input type="text" class="inputs enter" name="lname" value="Doe"></input>
+                    <p class='inputs'>Direction</p>
+                    <select class='inputs enter' name="direction">
+                        <option value="None" selected>-- None --</option>
+                        <option value="option1">Option1</option>
+                        <option value="option2">Option2</option>
+                    </select>
+                    <p id=buttons><span id='Clear'>Clear</span><span id='Save'>Save</span></p>
+                </form>
+            </div>
+        </div>
+        <div id = 'users'>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text for the user.<br>Some Text for the user.<br>Some Text for the user.<br>Some Text for the user.<br>Some Text for the user.<br>Some Text for the user.</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+            <div class = 'useritem'>
+                <p>User A</p>
+                <p>Some Text</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

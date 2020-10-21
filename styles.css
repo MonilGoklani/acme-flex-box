@@ -1,0 +1,150 @@
+body{
+    margin:0;
+    margin-top:0.2rem;
+}
+.main{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+}
+#navbar{
+    display: flex;
+    color: white;
+    background-color: #0289e3;
+    height:100%;
+    width:100%;
+    border: solid 1px black;
+    align-items:center;
+    padding-left:1rem;
+    margin-left:0;
+}
+#navmain{
+    flex:1;
+}
+.navitems{
+    list-style-type: none;
+    flex:3;
+    display:flex;
+    justify-content: space-around;
+    padding:0
+}
+.navitems li{
+    padding:0.5rem 0 0.5rem 0;
+}
+#form{
+    color:#474747;
+    padding:0 0 0 1rem;
+}
+
+#fields{
+    border-radius: 10px;
+    margin-left:25%;
+    margin-right:25%;
+    padding:0.5rem;
+    width: 50%;
+    display:flex;
+    border:solid 1px black;
+    flex-wrap: wrap;
+}
+
+#fields h1{
+    margin-top:0;
+    width:100%
+}
+
+#formfields{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inputs{
+    font-weight: bold;
+    margin:0.5rem 0 0.5rem 0;
+    width:25%
+}
+
+.enter{
+    width:75%
+}
+
+#Clear{
+    border: solid 1px black;
+    padding:0.2rem;
+}
+
+#Save{
+    border: solid 1px black;
+    background-color: #0289e3;
+    color:white;
+    padding:0.2rem;
+}
+#users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1rem;
+}
+
+.useritem{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border:solid 1px black;
+    width: calc(30% - 2rem);
+    margin:0.5rem;
+    padding:0 1rem 0 1rem;
+    border-radius: 25px;
+}
+
+.useritem p:first-child{
+    font-weight: bold;
+}
+
+@media (max-width: 600px){
+#formfields{
+    flex-direction:column;
+    width:100%
+}
+#fields{
+    margin-left: 0;
+    margin-right: 0;
+    padding:0.5rem;
+    width:calc(100% - 2rem);
+}
+#navbar{
+    flex-direction: column;
+    align-items:center;
+}
+.navitems{
+    flex-direction: column;
+    align-items:center;
+}
+.inputs{
+    width:100%
+}
+
+.enter{
+    width:100%
+}
+#buttons{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 40% 0 40%;
+}
+#users{
+    flex-direction: column;
+}
+.useritem{
+    width:calc(100% - 2rem)
+}
+#Clear{
+width:40%
+}
+
+#Save{
+width:40%
+}
+}
